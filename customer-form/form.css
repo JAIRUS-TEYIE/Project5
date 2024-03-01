@@ -1,0 +1,46 @@
+
+
+fieldset {
+    background-color:rgba(123, 121, 98, 0.2) ;
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    margin:auto;
+    padding: 20px;
+
+}
+
+fieldset legend{
+    color:blueviolet;
+    font-weight: bolder;
+}
+
+fieldset div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+fieldset input, select{
+    width:60%;
+}
+@media (max-width:500px) 
+{
+    fieldset{
+        width: 100%;
+    }
+
+}
+@media (min-width:501px) and ( max-width:750px){
+    fieldset{
+        width: 80%;
+    }
+
+}
+
+button{
+    padding: 1% 1%;
+    margin: auto;
+}
